@@ -752,18 +752,17 @@ $settings['entity_update_backup'] = TRUE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-
 $databases['default']['default'] = array (
     'database' => 'chat_stage',
     'username' => 'chat_stage',
-    'password' => ']9Qp0KS@E5',
+    'password' => '!eG13zz63$$$',
     'prefix' => '',
     'host' => 'localhost',
     'port' => '3306',
     'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
     'driver' => 'mysql',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_MFmKIXnLPgIC7yDATMT-NCAJ7ugTQEAIoSL3zPSneBuoDyjWFENG9kMFAhq72UzI87EzGrEUzg/sync';
+$settings['config_sync_directory'] = 'sites/default/files/config_reYkT7MsOxCHMyaYAL0jOuRNYKQLR_hbC00uuQ0LtnjwLeyTRTIvUhuznbGLoeLC9HlqoX6pAg/sync';
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
     include $app_root . '/' . $site_path . '/settings.local.php';
