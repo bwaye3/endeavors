@@ -1,3 +1,4 @@
+
 /****/
 html {
     overflow-x: hidden;
@@ -8059,7 +8060,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     -ms-transition: all 0.35s;
     -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
-    background: #a4893d;
+    background: #3dcc30;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -8068,7 +8069,18 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     padding: 10px;
 }
 
-.gavias-blockbuilder-content .link-edit-blockbuider:hover, .gavias-blockbuilder-content .link-edit-blockbuider:focus, .gavias-blockbuilder-content .link-edit-blockbuider:active {
+.gavias-blockbuilder-content .link-edit-blockbuider::before {
+    content: "\f040";
+    font-family: "FontAwesome";
+    font-size: 150%;
+    top: 2px;
+    left: 2px;
+    z-index: 1;
+}
+
+.gavias-blockbuilder-content .link-edit-blockbuider:hover,
+.gavias-blockbuilder-content .link-edit-blockbuider:focus,
+.gavias-blockbuilder-content .link-edit-blockbuider:active {
     color: #fff;
 }
 
