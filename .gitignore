@@ -10,6 +10,7 @@ _sql
 /sites/default/settings.local.php
 /sites/default/settings.php
 sites/default/settings.php
+/sites/default/files/php/twig/
 
 # Ignore paths that may contain user-generated content
 #/sites/*/files
