@@ -8084,6 +8084,10 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     color: #fff;
 }
 
+.video-embed-field-responsive-video::after {
+    margin: 2rem 0 2rem 0;
+}
+
 @media (max-width: 991px) {
     .gbb-row[style*="padding-top"] {
         padding-top: 25px !important;
