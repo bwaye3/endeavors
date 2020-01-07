@@ -29,6 +29,10 @@ a:active {
     text-decoration: underline;
 }
 
+li.menu-item a {
+    color: #000;
+}
+
 input:hover, input:focus, input:active, select:hover, select:focus, select:active, textarea:hover, textarea:focus, textarea:active {
     outline: none !important;
 }
