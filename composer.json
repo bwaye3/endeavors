@@ -43,6 +43,7 @@
         "drupal/recaptcha": "^2.4",
         "drupal/simplenews": "^1.0@beta",
         "drupal/state_machine": "^1.0@RC",
+        "drupal/swiftmailer": "^1.0@beta",
         "drupal/token": "^1.6",
         "drupal/tvi": "^1.0@beta",
         "drupal/twitter_block": "^2.1",
