@@ -12,7 +12,13 @@ h2 {
     margin: 2rem 0 0 0;
 }
 
-a:hover, a:focus, a:active {
+a {
+    color: #a4893d;;
+}
+
+a:hover,
+a:focus,
+a:active {
     -webkit-transition: all 0.35s;
     -o-transition: all 0.35s;
     transition: all 0.35s;
@@ -20,6 +26,7 @@ a:hover, a:focus, a:active {
     -ms-transition: all 0.35s;
     outline: none !important;
     color: #a4893d;
+    text-decoration: underline;
 }
 
 input:hover, input:focus, input:active, select:hover, select:focus, select:active, textarea:hover, textarea:focus, textarea:active {
@@ -480,7 +487,7 @@ header .quick-menu {
 }
 
 header .quick-menu .icon {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1;
 }
 
@@ -495,7 +502,7 @@ header .quick-menu .icon a:hover, header .quick-menu .icon a:active, header .qui
 }
 
 header .quick-menu .content-inner {
-    border-top: 2px solid #a4893d;
+    border-top: 2px solid transparent;
     -webkit-box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
     position: absolute;
