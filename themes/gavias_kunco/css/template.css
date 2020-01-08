@@ -134,6 +134,7 @@ h5, h6, .h5, .h6 {
 ul {
     margin: 0;
     padding-left: 30px;
+    list-style: circle;
 }
 
 ul ul {
@@ -142,6 +143,7 @@ ul ul {
 
 ul li {
     list-style: inherit;
+    font-size: 90%;
 }
 
 ul li i {
@@ -322,6 +324,7 @@ a.disable {
     font-weight: 400;
     color: #bbbbbb;
     text-transform: capitalize;
+    margin: 0 5px;
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb li a {
@@ -5044,6 +5047,7 @@ div.error {
 .btn:hover, .btn:focus, .btn:active, .btn.active, .btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .btn-theme:hover, .btn-theme:focus, .btn-theme:active, .btn-theme.active, .btn-theme-second:hover, .btn-theme-second:focus, .btn-theme-second:active, .btn-theme-second.active, .more-link a:hover, .more-link a:focus, .more-link a:active, .more-link a.active, .btn-theme-submit:hover, .btn-theme-submit:focus, .btn-theme-submit:active, .btn-theme-submit.active, input[type='submit']:hover, input[type='submit']:focus, input[type='submit']:active, input[type='submit'].active {
     color: #fff;
     background: #254e77;
+    text-decoration: none;
 }
 
 .more-link {
@@ -8250,6 +8254,14 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     font-size: 32px;
 }
 
+.sidebar .widget.gsc-heading .title {
+    font-size: 25px;
+}
+
+.sidebar .widget.gsc-heading .sub-title {
+    font-size: 16px;
+}
+
 @media (max-width: 767px) {
     .widget.gsc-heading .title {
         font-size: 24px !important;
@@ -8355,6 +8367,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 .widget.gsc-heading.style-1 {
     padding-bottom: 45px;
+}
+.sidebar .widget.gsc-heading.style-1 {
+    padding-bottom: 5px!important;
 }
 
 @media (max-width: 991px) {
@@ -9167,11 +9182,19 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .widget.gsc-icon-box .highlight_content .title {
-    font-size: 18px;
+     font-size: 18px;
+     color: #000;
+     margin-bottom: 3px;
+     font-weight: 500;
+ }
+
+.widget.gsc-icon-box .highlight_content .title a {
     color: #000;
-    margin-bottom: 3px;
-    font-weight: 500;
-    font-family: "Poppins", sans-serif;
+}
+
+.widget.gsc-icon-box .highlight_content .title a:hover {
+    color: #a4893d;
+    text-decoration: none;
 }
 
 .widget.gsc-icon-box .highlight_content .desc p {
@@ -10537,8 +10560,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.mini:hover {
     font-size: 10px;
     padding: 3px 10px;
-    color: #262626 !important;
-    background: #a4893d !important;
+    color: #a4893d !important;
+    background: #262626 !important;
     border: 2px solid #262626 !important;
     text-decoration: none !important;
 }
@@ -10554,8 +10577,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.small:hover {
     font-size: 10px;
     padding: 8px 15px;
-    color: #262626 !important;
-    background: #a4893d !important;
+    color: #a4893d !important;
+    background: #262626 !important;
     border: 2px solid #262626 !important;
     text-decoration: none !important;
 }
@@ -10571,8 +10594,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.medium:hover {
     font-size: 12px;
     padding: 12px 35px;
-    color: #262626 !important;
-    background: #a4893d !important;
+    color: #a4893d !important;
+    background: #262626 !important;
     border: 2px solid #262626 !important;
     text-decoration: none !important;
 }
@@ -10588,8 +10611,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.large:hover {
     font-size: 14px;
     padding: 18px 60px;
-    color: #262626 !important;
-    background: #a4893d !important;
+    color: #a4893d !important;
+    background: #262626 !important;
     border: 2px solid #262626 !important;
     text-decoration: none !important;
 }
@@ -10605,8 +10628,8 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.extra-large:hover {
     font-size: 14px;
     padding: 20px 60px;
-    color: #262626 !important;
-    background: #a4893d !important;
+    color: #a4893d !important;
+    background: #262626 !important;
     border: 2px solid #262626 !important;
     text-decoration: none !important;
 }
@@ -12556,6 +12579,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .campaign-block .image .action-donate:hover {
     background: #a4893d;
     border-color: #a4893d;
+    text-decoration: none;
 }
 
 .campaign-block .image .funded {
@@ -13396,6 +13420,13 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     display: block;
 }
 
+.quick-cart .title a:hover {
+    color: #000 !important;
+    background: #a4893d!important;
+    display: block;
+   text-decoration: none;
+}
+
 .quick-cart .title:hover {
     cursor: pointer;
 }
@@ -13455,8 +13486,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .quick-cart .cart-block--contents .cart-block--contents__links a:hover {
-    background: #fff;
-    color: #a4893d;
+    background: #a4893d!important;
+    color: #000;
+    text-decoration: none;
 }
 
 .quick-cart .cart-block--summary {

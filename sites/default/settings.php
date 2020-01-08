@@ -764,3 +764,6 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_reYkT7MsOxCHMyaYAL0jOuRNYKQLR_hbC00uuQ0LtnjwLeyTRTIvUhuznbGLoeLC9HlqoX6pAg/sync';
 
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+    include $app_root . '/' . $site_path . '/settings.local.php';
+}
