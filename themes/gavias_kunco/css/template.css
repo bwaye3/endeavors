@@ -8368,8 +8368,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .widget.gsc-heading.style-1 {
     padding-bottom: 45px;
 }
+
 .sidebar .widget.gsc-heading.style-1 {
-    padding-bottom: 5px!important;
+    padding-bottom: 5px !important;
 }
 
 @media (max-width: 991px) {
@@ -9182,11 +9183,11 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .widget.gsc-icon-box .highlight_content .title {
-     font-size: 18px;
-     color: #000;
-     margin-bottom: 3px;
-     font-weight: 500;
- }
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
 
 .widget.gsc-icon-box .highlight_content .title a {
     color: #000;
@@ -13422,9 +13423,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 
 .quick-cart .title a:hover {
     color: #000 !important;
-    background: #a4893d!important;
+    background: #a4893d !important;
     display: block;
-   text-decoration: none;
+    text-decoration: none;
 }
 
 .quick-cart .title:hover {
@@ -13486,7 +13487,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .quick-cart .cart-block--contents .cart-block--contents__links a:hover {
-    background: #a4893d!important;
+    background: #a4893d !important;
     color: #000;
     text-decoration: none;
 }
