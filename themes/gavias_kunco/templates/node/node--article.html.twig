@@ -76,9 +76,16 @@
 
       <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
         {{ content|without('field_image','field_post_category', 'field_post_format', 'field_post_type', 'field_post_embed', 'field_post_gallery', 'comment') }}
-        <br>
+      </div>
+
+      <div class="gallery-wrapper">
         {{ content.field_post_gallery }}
       </div>
+
+      <div id="node-single-comment" class="block-donate">
+        {{ drupal_block('leaveareply') }}
+      </div>
+
       <div id="node-single-comment">
         {{ content.comment }}
       </div>

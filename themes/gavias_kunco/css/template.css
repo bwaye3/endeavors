@@ -15,13 +15,18 @@ h2 {
     margin: 0 0 25px;
 }
 
-.quick-menu a {
+.quick-menu a,
+.side-links a {
     color: #000;
+    font-weight: 300;
+
 }
 
-.quick-menu a:hover {
+.quick-menu a:hover,
+.side-links a:hover {
     color: #a4893d;
     text-decoration: none;
+    background: #262626;
 }
 
 .header-action a:hover {
@@ -29,6 +34,16 @@ h2 {
     background: #000;
     text-decoration: none;
 
+}
+
+.article-teaser p {
+    color: rgba(0,0,0,0.8);
+    font-size: 90%;
+    line-height: 1.5;
+}
+
+.gallery-wrapper {
+    margin: 30px 0;
 }
 
 a {
@@ -6698,6 +6713,7 @@ div.resizable-textarea textarea {
 
 .sidebar .block-menu ul li a:hover, .sidebar .block-menu ul li a:focus, .sidebar .block-menu ul li a:active {
     color: #a4893d;
+    background: #262626;
 }
 
 .sidebar .block-menu ul li.menu-item--active-trail > a {
@@ -7501,7 +7517,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     -ms-transition: all 0.35s;
     position: relative;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .category-list .item-list ul li a:hover, .category-list .item-list ul li a:focus, .category-list .item-list ul li a:active {
