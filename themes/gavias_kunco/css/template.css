@@ -11,6 +11,17 @@ h2 {
     margin: 2rem 0 0 0;
 }
 
+.footer-links .gva_menu > li > a {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0;
+    color: #fff;
+}
+.footer-links .gva_menu > li {
+    width: 200px;
+}
+
 .custom-text {
     margin: 0 0 25px;
 }
