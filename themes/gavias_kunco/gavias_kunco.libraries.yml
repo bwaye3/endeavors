@@ -155,7 +155,6 @@ gavias-kunco-admin:
       css/theme-settings.css: {}
       vendor/colorpicker/css/colorpicker.css: {}
       vendor/codemirror/lib/codemirror.css: {}
-      vendor/codemirror/lib/codemirror.css: {}
       vendor/codemirror/addon/hint/show-hint.css: {}
   js:
       vendor/jquery-migrate.min.js: {}
@@ -178,3 +177,8 @@ views-infinite-scroll:
     - core/jquery
     - core/drupal
     - core/drupal.debounce
+
+print-styling:
+  css:
+    theme:
+      css/print-style.css: {}

@@ -41,3 +41,15 @@ regions:
 version: '8.x'
 core: '8.x'
 project: 'drupal'
+
+entity_print:
+  node:
+    # Adds article-pdf css library to the Article bundle on the Node entity.
+    article: 'gavias_kunco/article-pdf'
+    # Adds the all-nodes library to all node PDF’s.
+    all: 'gavias_kunco/all-nodes'
+
+entity_print:
+  node:
+    all: 'gavias_kunco/print-styling'
+
