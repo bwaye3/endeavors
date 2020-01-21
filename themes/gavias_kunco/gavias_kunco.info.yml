@@ -49,7 +49,8 @@ entity_print:
     # Adds the all-nodes library to all node PDF’s.
     all: 'gavias_kunco/all-nodes'
 
-entity_print:
-  node:
-    all: 'gavias_kunco/print-styling'
+ckeditor_stylesheets:
+  - https://fonts.googleapis.com/css?family=Open+Sans
+  - css/font-family.css
+  - css/ckeditor.css
 

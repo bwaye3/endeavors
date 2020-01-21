@@ -3,8 +3,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>http://chattanoogaendeavors.org/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
 <url><loc>http://chattanoogaendeavors.org/block/1</loc><lastmod>2020-01-08T19:52Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/block/10</loc><lastmod>2020-01-06T21:37Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/block/11</loc><lastmod>2020-01-06T22:58Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/block/10</loc><lastmod>2020-01-06T21:37Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/block/11</loc><lastmod>2020-01-06T22:58Z</lastmod><changefreq>monthly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/block/12</loc><lastmod>2020-01-08T01:22Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/block/13</loc><lastmod>2020-01-08T02:37Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/block/14</loc><lastmod>2020-01-08T14:35Z</lastmod><changefreq>weekly</changefreq></url>
@@ -20,7 +20,7 @@
 <url><loc>http://chattanoogaendeavors.org/block/6</loc><lastmod>2020-01-08T03:52Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/block/7</loc><lastmod>2020-01-18T00:38Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/block/8</loc><lastmod>2020-01-18T00:43Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/block/9</loc><lastmod>2020-01-06T23:43Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/block/9</loc><lastmod>2020-01-06T23:43Z</lastmod><changefreq>monthly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/media/2/edit</loc><lastmod>2020-01-07T22:38Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/media/7/edit</loc><lastmod>2020-01-17T23:47Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/welcome</loc><lastmod>2020-01-07T13:49Z</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
@@ -40,12 +40,12 @@
 <url><loc>http://chattanoogaendeavors.org/reentry-services/pathways</loc><lastmod>2020-01-19T20:23Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/resources</loc><lastmod>2020-01-19T20:41Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/resources/community-resources</loc><lastmod>2020-01-19T20:32Z</lastmod><changefreq>daily</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/resources/prisonguide</loc><lastmod>2020-01-18T22:51Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/resources/prisonguide</loc><lastmod>2020-01-18T22:51Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/resources/reentry-checklist</loc><lastmod>2020-01-19T20:40Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/resources/tips-on-getting-help-3</loc><lastmod>2020-01-19T20:41Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/resources/locating</loc><lastmod>2020-01-08T05:30Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/donate</loc><lastmod>2020-01-08T05:31Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/donate/alliance</loc><lastmod>2020-01-06T22:04Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/donate/alliance</loc><lastmod>2020-01-06T22:04Z</lastmod><changefreq>monthly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/floyd-davis</loc><lastmod>2020-01-07T02:57Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/timothy-dempsey</loc><lastmod>2020-01-07T02:57Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/calvin-figgures</loc><lastmod>2020-01-07T02:58Z</lastmod><changefreq>weekly</changefreq></url>
@@ -59,7 +59,7 @@
 <url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding</loc><lastmod>2020-01-08T15:53Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding/stages</loc><lastmod>2020-01-08T15:33Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding/the-rabbis-gift</loc><lastmod>2020-01-08T16:14Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding/poems</loc><lastmod>2020-01-20T15:14Z</lastmod><changefreq>hourly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding/poems</loc><lastmod>2020-01-20T15:14Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/reentry-services/communitybuilding/communitybuildingworkshop</loc><lastmod>2020-01-07T22:26Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/lenten-cross-project</loc><lastmod>2020-01-19T20:34Z</lastmod><changefreq>daily</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/lenten-cross-project/participating</loc><lastmod>2020-01-19T20:34Z</lastmod><changefreq>daily</changefreq></url>
@@ -80,16 +80,16 @@
 <url><loc>http://chattanoogaendeavors.org/privacy-policy</loc><lastmod>2020-01-18T13:54Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/terms-and-conditions</loc><lastmod>2020-01-18T13:55Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/news/blog/phillip-mcclain</loc><lastmod>2020-01-17T23:26Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/news/blog/transformative-race-talk</loc><lastmod>2020-01-07T19:10Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/node/57</loc><lastmod>2020-01-07T02:44Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/node/58</loc><lastmod>2020-01-07T02:45Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/node/59</loc><lastmod>2020-01-07T02:48Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/news/blog/transformative-race-talk</loc><lastmod>2020-01-20T23:29Z</lastmod><changefreq>daily</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/node/57</loc><lastmod>2020-01-07T02:44Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/node/58</loc><lastmod>2020-01-07T02:45Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/node/59</loc><lastmod>2020-01-07T02:48Z</lastmod><changefreq>monthly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/node/60</loc><lastmod>2020-01-07T02:49Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/node/61</loc><lastmod>2020-01-07T02:51Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/node/62</loc><lastmod>2020-01-07T02:50Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/node/63</loc><lastmod>2020-01-07T02:42Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/node/64</loc><lastmod>2020-01-07T02:39Z</lastmod><changefreq>weekly</changefreq></url>
-<url><loc>http://chattanoogaendeavors.org/services</loc><lastmod>2020-01-06T22:38Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/node/63</loc><lastmod>2020-01-07T02:42Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/node/64</loc><lastmod>2020-01-07T02:39Z</lastmod><changefreq>monthly</changefreq></url>
+<url><loc>http://chattanoogaendeavors.org/services</loc><lastmod>2020-01-06T22:38Z</lastmod><changefreq>monthly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/about</loc><lastmod>2020-01-08T16:46Z</lastmod><changefreq>weekly</changefreq></url>
 <url><loc>http://chattanoogaendeavors.org/our-awards</loc><lastmod>2017-08-02T02:52Z</lastmod><changefreq>never</changefreq></url>
 </urlset>
