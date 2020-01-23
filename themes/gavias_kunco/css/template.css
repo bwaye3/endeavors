@@ -11,6 +11,15 @@ h2 {
     margin: 2rem 0 0 0;
 }
 
+.sidebar .item-image {
+  margin: 10px 0 20px 0;
+  border: 1px solid  #ddd;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
 #poem-wrapper .custom-text {
     margin: 0 0 2px !important;
 }
@@ -63,9 +72,12 @@ a:hover.pdf,
 .button.medium a,
 .button.large a {
     color: #262626;
-    border: 1px solid #262626;
+    border: 2px solid #262626;
     padding: 10px 20px;
-    font-weight: 400;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 10px;
 }
 
 .button.small a:hover,
