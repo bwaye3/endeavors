@@ -216,14 +216,14 @@ header h2.title {
 
 .quick-menu a:hover,
 .side-links a:hover {
-    color: #a4893d;
+    color: #ffffff;
     text-decoration: none;
-    background: #262626;
+    background: #254e77;
 }
 
 .header-action a:hover {
-    color: #a4893d;
-    background: #000;
+    color: #ffffff;
+    background: #254e77;
     text-decoration: none;
 
 }
@@ -6905,13 +6905,17 @@ div.resizable-textarea textarea {
 }
 
 .sidebar .block-menu ul li a:hover, .sidebar .block-menu ul li a:focus, .sidebar .block-menu ul li a:active {
-    color: #a4893d;
-    background: #262626;
+    color: #ffffff;
+    background: #254e77;
 }
 
 .sidebar .block-menu ul li.menu-item--active-trail > a {
     color: #a4893d !important;
 }
+.sidebar .block-menu ul li.menu-item--active-trail > a:hover {
+  color: #fff !important;
+}
+
 
 .recent-comment-block .views-field-picture {
     margin-right: 10px;
@@ -10770,9 +10774,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.mini:hover {
     font-size: 10px;
     padding: 3px 10px;
-    color: #a4893d !important;
-    background: #262626 !important;
-    border: 2px solid #262626 !important;
+    color: #ffffff !important;
+    background: #254e77 !important;
+    border: 2px solid #254e77 !important;
     text-decoration: none !important;
 }
 
@@ -10804,9 +10808,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.medium:hover {
     font-size: 12px;
     padding: 12px 35px;
-    color: #a4893d !important;
-    background: #262626 !important;
-    border: 2px solid #262626 !important;
+    color: #ffffff !important;
+    background: #254e77 !important;
+    border: 2px solid #254e77 !important;
     text-decoration: none !important;
 }
 
@@ -10821,9 +10825,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.large:hover {
     font-size: 14px;
     padding: 18px 60px;
-    color: #a4893d !important;
-    background: #262626 !important;
-    border: 2px solid #262626 !important;
+    color: #ffffff !important;
+    background: #254e77 !important;
+    border: 2px solid #254e77 !important;
     text-decoration: none !important;
 }
 
@@ -10838,9 +10842,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .gsc-button.extra-large:hover {
     font-size: 14px;
     padding: 20px 60px;
-    color: #a4893d !important;
-    background: #262626 !important;
-    border: 2px solid #262626 !important;
+    color: #ffffff !important;
+    background: #254e77 !important;
+    border: 2px solid #254e77 !important;
     text-decoration: none !important;
 }
 
