@@ -106,9 +106,10 @@ a:hover.pdf,
 }
 
 .poems .view-content-wrap .col-sm-12 h4:first-of-type {
-  font-size: 22px !important;
-  color: #262626 !important;
+  font-size: 24px !important;
+  color: #a4893d !important;
   margin-left: 0;
+  font-weight: 400;
 }
 
 .poems .view-content-wrap .col-sm-12 {
@@ -214,7 +215,12 @@ header h2.title {
 
 }
 
-.quick-menu a:hover,
+.quick-menu a:hover {
+  color: #a4893d;
+  background: transparent;
+  text-decoration: none;
+}
+
 .side-links a:hover {
   color: #ffffff;
   text-decoration: none;
@@ -258,6 +264,87 @@ a:active {
 .contextual .trigger {
   border: 1px solid #254e77;
   background-color: #254e77;
+}
+
+.body-page select {
+  background-color: #f2f2f2 !important;
+}
+
+select {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  background-color: #f2f2f2;
+  border: 1px solid #F0F3FB;
+  border-radius: 4px;
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  color: #3F3F3F;
+
+  /* Here's the code we need */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.js-form-type-select {
+  position: relative;
+}
+
+.js-form-type-select::after {
+  font-family: FontAwesome;
+  content: '\f107';
+  font-size: 28px;
+  position: absolute;
+  top: -4px;
+  right: 20px;
+  color:#434B67;
+  pointer-events: none;
+}
+
+.js-form-type-textfield {
+  position: relative;
+}
+
+.js-form-type-textfield::after {
+  font-family: FontAwesome;
+  content: '\f002';
+  font-size: 20px;
+  right: 100px;
+  color: #434B67;
+  pointer-events: none;
+  padding: 0 10px;
+}
+
+.body-page input[type="text"] {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.02) inset;
+  box-shadow: 0 0 2px 2px
+  rgba(0, 0, 0, 0.02) inset;
+  border: 1px solid
+  rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  width: 95%;
+}
+
+select::-ms-expand {
+  display: none;
+}
+/* CAUTION: Internet Explorer hackery ahead */
+
+
+select::-ms-expand {
+  display: none; /* Remove default arrow in Internet Explorer 10 and 11 */
+}
+
+/* Target Internet Explorer 9 to undo the custom arrow */
+@media screen and (min-width:0\0) {
+  select {
+    background: none\9;
+    padding: 5px\9;
+  }
 }
 
 li.menu-item a {
@@ -6895,6 +6982,7 @@ div.resizable-textarea textarea {
 .sidebar .block-menu ul li a {
   padding: 8px 10px 8px 15px;
   display: block;
+  background: #f7f7f7;
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-transform: none;
   font-size: 14px;
@@ -6905,8 +6993,9 @@ div.resizable-textarea textarea {
   -moz-transition: all 0.35s;
   -ms-transition: all 0.35s;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  xfont-family: "Poppins", sans-serif;
   font-weight: 500;
+  border-radius: 4px;
 }
 
 .sidebar .block-menu ul li a:hover, .sidebar .block-menu ul li a:focus, .sidebar .block-menu ul li a:active {
