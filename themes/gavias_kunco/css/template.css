@@ -11,24 +11,79 @@ h2 {
   margin: 2rem 0 0 0;
 }
 
-ul.js-pager__items {
-  margin: 0;
-  padding-left: 30px;
-  list-style: none;
-  display: inline ;
+.taxo nav {
+  margin: 25px 0;
 }
 
- ul.js-pager__items li {
+.view-page {
+  margin-bottom: 40px;
+  border-bottom: 4px solid #eee;
+  padding-bottom: 10px;
+}
+
+ul.js-pager__items {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  display: inline;
+}
+
+.node--type-community-services-directory .node__title {
+  line-height: 1;
+}
+
+.views-view-grid .views-col {
+  float: left;
+  border-right: 1px solid #eee;
+}
+
+.views-view-grid .views-col:last-child {
+  float: left;
+  border-right: 1px solid #fff;
+}
+
+ul.js-pager__items li {
   list-style: none;
   font-size: 14px;
   display: inline;
   text-transform: uppercase;
   font-weight: 500;
-  margin: 0 10px 0 0;color: #254e77;
+  margin: 0 10px 0 0;
+  color: #254e77;
 }
 
 ul.js-pager__items li span {
   font-size: 18px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px 10px 5px;
+  background: #254e77;
+  color: #fff;
+  border-radius: 4px;
+}
+
+ul.js-pager__items li span:hover {
+  background: #fff;
+  color: #254e77;
+  text-decoration: none;
+}
+
+.field.field--name-field-custom.field--type-string.field--label-hidden.field__item {
+  font-weight: 500;
+  color: #000;
+}
+
+.field.field--name-field-category.field--type-entity-reference.field--label-inline,
+.field.field--name-field-sub-category.field--type-entity-reference.field--label-inline {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  margin: 10px 0;
+}
+
+.field.field--name-field-telephone.field--type-telephone.field--label-hidden.field__items {
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -120,7 +175,7 @@ a:hover.pdf,
 .button.large a {
   font-family: Roboto Condensed !important;
   color: #262626;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
   font-weight: 400;
   font-size: 14px;
@@ -409,16 +464,24 @@ a:active {
   background-color: #254e77 !important;
   color: #fff;
 }
+
 b, strong {
   font-weight: 500;
 }
 
 .taxo .node__title a {
   color: #000;
-  font-size: 22px;
+  font-size: 18px;
 
 }
 
+.address {
+  line-height: 1.4;
+  font-size: 14px;
+}
+.field.field--name-field-link.field--type-link.field--label-hidden.field__item {
+  font-size: 14px;
+}
 .views-view-grid.horizontal {
   margin: 0 0 30px;
 }
@@ -627,6 +690,7 @@ select {
 .js-form-type-textfield {
   position: relative;
 }
+
 /*
 .js-form-type-textfield::after {
   font-family: FontAwesome;
