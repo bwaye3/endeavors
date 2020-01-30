@@ -11,6 +11,32 @@ h2 {
   margin: 2rem 0 0 0;
 }
 
+.sidebar .field__item a {
+  color: #000;
+  padding: 7px 9px 7px 14px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-transform: none;
+  font-size: 14px;
+  font-family: Roboto Condensed !important;
+  overflow: hidden;
+  margin: 0 0 10px;
+  -webkit-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -ms-transition: all 0.35s;
+  position: relative;
+  font-weight: 400;
+}
+
+.sidebar .field__item a:hover {
+  color: #fff;
+  background: #254e77;
+  text-decoration: none;
+}
+
+
 .sidebar .item-image {
   margin: 10px 0 20px 0;
   border: 1px solid #ddd;
@@ -71,20 +97,19 @@ a:hover.pdf,
 .button.small a,
 .button.medium a,
 .button.large a {
+  font-family: Roboto Condensed !important;
   color: #262626;
-  border: 2px solid #262626;
+  border: 1px solid rgba(0,0,0,0.2);
   padding: 10px 20px;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-size: 10px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .button.small a:hover,
 .button.medium a:hover,
 .button.large a:hover {
-  color: #a4893d;
-  background: #262626;
+  color: #fff;
+  background: #254e77;
   text-decoration: none;
 }
 
@@ -133,14 +158,18 @@ a:hover.pdf,
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .breadcrumb-links nav.breadcrumb li a {
-  color: #a4893d !important;
+  color: #fff !important;
 }
 
 .prison-resources p {
-  color: dimgrey;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 5px;
+}
+
+.views-field.views-field-title.is-active.views-field-field-sub-category.views-field-field-address.views-field-field-custom.views-field-field-telephone.views-field-field-team-email.views-field-field-file.views-field-field-link.views-field-edit-node {
+  border-bottom: 1px solid #e6e6e6;
+  width: 90%;
 }
 
 .prison-resources table > thead > tr > th,
@@ -158,14 +187,82 @@ a:hover.pdf,
   margin-bottom: 10px;
 }
 
-.js-form-item.form-item.js-form-type-select.form-item-field-resource-category-target-id.js-form-item-field-resource-category-target-id {
-  margin: 0 0 30px;
-}
-
 header h2.title {
   font-size: 32px;
   margin: 0;
   color: #a4893d;
+}
+
+caption {
+  margin-top: 20px !important;
+}
+
+caption a {
+  font-family: Roboto Condensed !important;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 500;
+  position: relative;
+  color: #000;
+  z-index: 9;
+  border-bottom: 1px solid #a4893d;
+  /*
+   padding: 5px 20px;
+   border-radius: 4px;*/
+}
+
+caption a:hover {
+  color: #a4893d;
+!important;
+  text-decoration: none;
+}
+
+.category-title {
+  margin: 20px 0 10px 0;
+}
+
+.btn.btn-primary {
+  margin: 20px 0 10px 0;
+}
+
+.btn.btn-primary a {
+  color: #000 !important;
+}
+
+.btn.btn-primary a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+/*
+.prison-resources ul li {
+  list-style: none;
+  font-size: 12px;
+}
+
+.prison-resources ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.prison-resources li  {
+  border: 1px solid #000;
+  margin: 0 0 10px;
+  padding: 6px;
+  border-radius: 4px;
+}
+*/
+
+.prison-resources-menu ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.prison-resources-menu ul li {
+  list-style: none;
+  font-size: 100%;
 }
 
 .prison-resources h3 a {
@@ -176,6 +273,27 @@ header h2.title {
   margin-bottom: 8px;
   line-height: 1;
   font-weight: 600;
+}
+
+.prison-resources label {
+  font-family: Roboto Condensed !important;
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.prison-resources .js-form-type-select::after {
+  font-family: FontAwesome;
+  content: '\f107';
+  font-size: 28px;
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  color: #434B67;
+  pointer-events: none;
 }
 
 .prison-resources a {
@@ -267,18 +385,199 @@ a:active {
 }
 
 .body-page select {
-  background-color: #f2f2f2 !important;
+  background-color: #254e77 !important;
+  color: #fff;
+}
+b, strong {
+  font-weight: 500;
+}
+
+.taxo .node__title a {
+  color: #000;
+  font-size: 22px;
+
+}
+
+.views-view-grid.horizontal {
+  margin: 0 0 30px;
+}
+
+/* RSS FEED */
+a.feed-icon {
+  border-bottom: none !important;
+  color: black !important;
+  font-family: "Roboto Condensed";
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+a.feed-icon:hover {
+  color: #b29b5b !important;
+  text-decoration: none;
+}
+
+.feed-icon::before {
+  font-family: "FontAwesome";
+  content: '\f143';
+}
+
+.feed-icon:hover::before {
+  color: #b29b5b;
+  text-decoration: none;
+}
+
+/* PDF */
+.file--application-pdf::before {
+  content: "\f1c1";
+  color: red;
+  font-family: "FontAwesome";
+}
+
+.file--application-pdf::after {
+  content: "(PDF)";
+  color: var(--gt-black);
+  font-weight: 400;
+  font-size: 90%;
+}
+
+a[href$=".pdf"] {
+  /* PDF file */
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+.download-reader {
+  font-family: var(--font-roboto-condensed);
+  font-size: .9rem;
+  text-transform: uppercase;
+  padding-left: .5rem;
+}
+
+/* Word */
+.file--x-office-document::before {
+  content: "\f1c2";
+  color: blue;
+  font-family: "FontAwesome";
+}
+
+.file--x-office-document::after {
+  content: "(DOC)";
+  color: var(--gt-black);
+  font-weight: 400;
+  font-size: 90%;
+}
+
+a[href$=".doc"] {
+  /* Word file */
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+a[href$=".docx"] {
+  /* Word file */
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+/* XLS */
+.file--x-office-spreadsheet::before {
+  content: "\f1c3";
+  color: Green;
+  font-family: "FontAwesome";
+}
+
+.file--x-office-spreadsheet::after {
+  content: "(XLS)";
+  color: var(--gt-black);
+  font-weight: 400;
+  font-size: 90%;
+}
+
+a[href$=".xls"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+a[href$=".xlsx"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+/* PPT */
+.file--x-office-presentation::before {
+  content: "\f1c4";
+  color: Magenta;
+  font-family: "FontAwesome";
+}
+
+.file--x-office-presentation::after {
+  content: "(PPT)";
+  color: var(--gt-black);
+  font-weight: 400;
+  font-size: 90%;
+}
+
+a[href$=".ppt"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+a[href$=".pptx"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+/* PPS */
+.file--x-office-presentation::before {
+  content: "\f1c4";
+  color: Magenta;
+  font-family: "FontAwesome";
+}
+
+.file--x-office-presentation::after {
+  content: "(PPT)";
+  color: var(--gt-black);
+  font-weight: 400;
+  font-size: 90%;
+}
+
+a[href$=".pps"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+a[href$=".ppsx"] {
+  color: var(--gt-black);
+  padding-left: .25rem;
+}
+
+
+.contextual .trigger {
+  background-image: url(/core/themes/stable/images/core/icons/ffffff/pencil.svg);
+  border: 2px solid #b29b5b;
+}
+
+.contextual .trigger:hover {
+  background-image: url(/core/themes/stable/images/core/icons/5181c6/pencil.svg);
+  background-color: #fff;
+  border: 2px solid #254e77;
+}
+
+.prison-resources h4 {
+  padding: 0;
+  margin: 5px 0 0;
+  font-size: 20px;
 }
 
 select {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Roboto Condensed !important;
   font-weight: 500;
   background-color: #f2f2f2;
   border: 1px solid #F0F3FB;
-  border-radius: 4px;
+  border-radius: 1px;
   width: 100%;
   padding: 20px;
-  font-size: 16px;
+  font-size: 15px;
   color: #3F3F3F;
 
   /* Here's the code we need */
@@ -300,7 +599,7 @@ select {
   position: absolute;
   top: -4px;
   right: 20px;
-  color:#434B67;
+  color: #434B67;
   pointer-events: none;
 }
 
@@ -321,10 +620,8 @@ select {
 .body-page input[type="text"] {
   background-color: #fff;
   -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.02) inset;
-  box-shadow: 0 0 2px 2px
-  rgba(0, 0, 0, 0.02) inset;
-  border: 1px solid
-  rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.02) inset;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 5px 10px;
   width: 95%;
 }
@@ -332,6 +629,7 @@ select {
 select::-ms-expand {
   display: none;
 }
+
 /* CAUTION: Internet Explorer hackery ahead */
 
 
@@ -340,10 +638,11 @@ select::-ms-expand {
 }
 
 /* Target Internet Explorer 9 to undo the custom arrow */
-@media screen and (min-width:0\0) {
+@media screen and (min-width: 0\0
+) {
   select {
-    background: none\9;
-    padding: 5px\9;
+    background: none \9;
+    padding: 5px \9;
   }
 }
 
@@ -561,14 +860,23 @@ a.disable {
   color: #fff;
 }
 
+h2.page-title {
+  font-weight: 300 !important;
+}
+
 .breadcrumb-content-inner {
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
+  font-family: Roboto Condensed !important;
 }
 
 .breadcrumb-content-inner .breadcrumb-content-main {
   position: relative;
   z-index: 9;
+}
+
+.prison-resources td a {
+  color: #254e77;
 }
 
 .breadcrumb-content-inner .gva-breadcrumb-content .page-title {
@@ -577,8 +885,8 @@ a.disable {
   top: 0;
   left: 0;
   width: 100%;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-family: Roboto Condensed !important;
   margin-bottom: 5px;
 }
 
@@ -6693,12 +7001,17 @@ div.resizable-textarea textarea {
 
 .block .block-title > span {
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   position: relative;
   color: #000;
   z-index: 9;
 }
+
+.sidebar .block .block-title > span {
+  font-size: 20px;
+}
+
 
 .block.block-system-main-block {
   margin-bottom: 0;
@@ -7796,9 +8109,10 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .category-list .item-list ul li a {
-  padding: 8px 10px 8px 15px;
+  color: #000;
+  padding: 7px 9px 7px 14px;
   display: block;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   text-transform: none;
   font-size: 14px;
   overflow: hidden;
@@ -7813,7 +8127,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .category-list .item-list ul li a:hover, .category-list .item-list ul li a:focus, .category-list .item-list ul li a:active {
-  color: #a4893d;
+  color: #fff;
+  text-decoration: none;
+  background: #254e77;
 }
 
 .testimonial-v1 .testimonial-item {
@@ -8058,9 +8374,9 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 }
 
 .tags-list .item-list > ul > li a {
-  background: #a4893d;
+  background: #254e77;
   font-weight: 400;
-  color: #000;
+  color: #ffffff;
   padding: 2px 10px;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
@@ -8074,9 +8390,11 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
   -ms-transition: all 0.35s;
 }
 
-.tags-list .item-list > ul > li a:hover, .tags-list .item-list > ul > li a:focus, .tags-list .item-list > ul > li a:active {
-  background: #000;
-  color: #a4893d;
+.tags-list .item-list > ul > li a:hover,
+.tags-list .item-list > ul > li a:focus,
+.tags-list .item-list > ul > li a:active {
+  background: #a4893d;
+  color: #000000;
   text-decoration: none;
 }
 
