@@ -627,7 +627,7 @@ select {
 .js-form-type-textfield {
   position: relative;
 }
-
+/*
 .js-form-type-textfield::after {
   font-family: FontAwesome;
   content: '\f002';
@@ -637,6 +637,7 @@ select {
   pointer-events: none;
   padding: 0 10px;
 }
+*/
 
 .body-page input[type="text"] {
   background-color: #fff;
@@ -644,7 +645,7 @@ select {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.02) inset;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 5px 10px;
-  width: 95%;
+  width: 100%;
 }
 
 select::-ms-expand {
