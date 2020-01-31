@@ -24,7 +24,7 @@ _sql
 /sites/default/files/js/
 /sites/default/files/tmp/
 /profiles/
-
+/core_compare
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
