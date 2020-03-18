@@ -417,7 +417,7 @@ caption a:hover {
   pointer-events: none;
 }
 
-.sidebar .prison-resources .js-form-type-select::after {
+#edit-term-node-tid-depth::after {
   font-family: FontAwesome;
   content: '\f107';
   font-size: 28px;
