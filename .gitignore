@@ -1,11 +1,11 @@
 # gitignore template for Drupal 8 projects
 #
 # earlier versions of Drupal are tracked in `community/PHP/`
-_logo
-_sql
+#_logo
+#_sql
 # Ignore configuration files that may contain sensitive information
 /sites/*/*settings*.php
-/sites/*/*services*.yml
+#/sites/*/*services*.yml
 /sites/development.services.yml
 /sites/default/settings.local.php
 /sites/default/settings.php
@@ -15,25 +15,25 @@ _sql
 
 # Ignore paths that may contain user-generated content
 #/sites/*/files
-/sites/*/public
-/sites/*/private
-/sites/*/files-public
-/sites/*/files-private
-/sites/default/files/php/
-/sites/default/files/css/
-/sites/default/files/js/
-/sites/default/files/tmp/
-/profiles/
-/core_compare
+#/sites/*/public
+#/sites/*/private
+#/sites/*/files-public
+#/sites/*/files-private
+#/sites/default/files/php/
+#/sites/default/files/css/
+#/sites/default/files/js/
+#/sites/default/files/tmp/
+##/profiles/
+#/core_compare
 
 # Ignore paths that may contain temporary files
-/sites/*/translations
-/sites/*/tmp
-/sites/*/cache
-/robots.txt
-robots.txt
+#/sites/*/translations
+#/sites/*/tmp
+#/sites/*/cache
+#/robots.txt
+#robots.txt
 # Ignore testing related files
-/sites/simpletest
+#/sites/simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
 #/core
@@ -44,21 +44,21 @@ robots.txt
 #/.eslintignoreconfig
 #/.eslintrc.json
 #/.gitattributes
-.htaccess
+#.htaccess
 #/autoload.php
 #/composer.lock
 #/index.php
 #/robots.txt
 #/update.php
 #.config
-/example.gitignore
-/profiles/README.txt
-/sites/README.txt
-/sites/example.sites.php
-/sites/example.settings.local.php
-/themes/README.txt
-/LICENSE.txt
-/README.txt
+#/example.gitignore
+#/profiles/README.txt
+#/sites/README.txt
+#/sites/example.sites.php
+#/sites/example.settings.local.php
+##/themes/README.txt
+#/LICENSE.txt
+#/README.txt
 
 # Ignore OS garbage
 .DS_Store
