@@ -3,6 +3,7 @@
 namespace Drupal\file_replace\Form;
 
 use Drupal\Core\Entity\ContentEntityForm;
+use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\Form\FormStateInterface;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
@@ -12,11 +13,17 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class FileReplaceForm extends ContentEntityForm {
 
   /**
+   * @var \Drupal\Core\File\FileSystemInterface
+   */
+  protected $fileSystem;
+
+  /**
    * {@inheritdoc}
    */
   public static function create(ContainerInterface $container) {
     $instance = parent::create($container);
     $instance->setModuleHandler($container->get('module_handler'));
+    $instance->fileSystem = $container->get('file_system');
     return $instance;
   }
 
@@ -78,7 +85,7 @@ class FileReplaceForm extends ContentEntityForm {
       return;
     }
 
-    if (!file_unmanaged_copy($replacement->getFileUri(), $file_uri, FILE_EXISTS_REPLACE)) {
+    if (!$this->fileSystem->copy($replacement->getFileUri(), $file_uri, FileSystemInterface::EXISTS_REPLACE)) {
       $this->messenger()->addError(t('The file could not be replaced'));
       return;
     }

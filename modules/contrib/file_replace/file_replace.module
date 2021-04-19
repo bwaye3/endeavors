@@ -12,6 +12,24 @@ use Drupal\file\FileInterface;
  */
 function file_replace_entity_type_build(array &$entity_types) {
   $entity_types['file']->setFormClass('replace', 'Drupal\file_replace\Form\FileReplaceForm');
+  $entity_types['file']->setLinkTemplate('replace-form', '/admin/content/files/replace/{file}');
+}
+
+/**
+ * Implements hook_views_data().
+ *
+ * Views integration of file_replace.
+ */
+function file_replace_views_data() {
+  $data['file_managed']['file_replace_link'] = [
+    'field' => [
+      'title' => t('Link to replace file'),
+      'help' => t('Provide a link to replace the file.'),
+      'id' => 'file_replace_link',
+    ],
+  ];
+
+  return $data;
 }
 
 /**
